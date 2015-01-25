@@ -12,3 +12,9 @@ How can you use the staging are to make sure you have one commit per logical cha
 The staging area allows you to view all of the files you have changed since you last made a commit, and decide which ones to add to a specific commit. 
 You can use commands like git diff and git diff --staged to compare the files in the staging area with the files in your working directory and latest commit, respectively. 
 This will aid you in determining what changes are most logical to commit together, and what changes logically belong in a separate commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful in keeping your history organized because they allow you to add a new feature/modification, while maintaining a working version of your code or application. 
+The new feature you want to add may be experiemental, or significantly update your existing code. 
+It's convenient to keep this separate if you need to maintain a working version of your code (ex: you have an existing user base, your need to run a demo). 
+It is best practice to create a branch for mostly anything other than a minor bug fix. 
