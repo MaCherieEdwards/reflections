@@ -18,3 +18,7 @@ Branches are helpful in keeping your history organized because they allow you to
 The new feature you want to add may be experiemental, or significantly update your existing code. 
 It's convenient to keep this separate if you need to maintain a working version of your code (ex: you have an existing user base, your need to run a demo). 
 It is best practice to create a branch for mostly anything other than a minor bug fix. 
+
+How do the diagrams help you visualize the branch structure?
+Drawing diagrams allows me to see what the parent of each commit is.
+With a diagram, it's easier to to visualize what has changed on the master branch since your branch has been created. 
