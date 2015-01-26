@@ -22,3 +22,9 @@ It is best practice to create a branch for mostly anything other than a minor bu
 How do the diagrams help you visualize the branch structure?
 Drawing diagrams allows me to see what the parent of each commit is.
 With a diagram, it's easier to to visualize what has changed on the master branch since your branch has been created. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together combines the features and functionality present in one branch with the latest commit to another branch (usually master). 
+It compares/cross-references the code between one branch and another, and ensures that only the most recent changes to each version of a file are merged into one new version. 
+We represent the relationship in the diagram in a linear order to represent the parent/child relationship between commits. 
+It also allows us to stay organized by ensuring that the merge process runs smoothly. 
