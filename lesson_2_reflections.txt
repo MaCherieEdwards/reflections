@@ -9,22 +9,28 @@ The staging area allows you to organize all of the files you'd like to place wit
 It gives you the flexiblity to add and remove files without having to make commits to the code before you're ready. 
 
 How can you use the staging are to make sure you have one commit per logical change?
+
 The staging area allows you to view all of the files you have changed since you last made a commit, and decide which ones to add to a specific commit. 
 You can use commands like git diff and git diff --staged to compare the files in the staging area with the files in your working directory and latest commit, respectively. 
 This will aid you in determining what changes are most logical to commit together, and what changes logically belong in a separate commit. 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
 Branches are helpful in keeping your history organized because they allow you to add a new feature/modification, while maintaining a working version of your code or application. 
 The new feature you want to add may be experiemental, or significantly update your existing code. 
 It's convenient to keep this separate if you need to maintain a working version of your code (ex: you have an existing user base, your need to run a demo). 
 It is best practice to create a branch for mostly anything other than a minor bug fix. 
 
 How do the diagrams help you visualize the branch structure?
+
 Drawing diagrams allows me to see what the parent of each commit is.
 With a diagram, it's easier to to visualize what has changed on the master branch since your branch has been created. 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
 Merging two branches together combines the features and functionality present in one branch with the latest commit to another branch (usually master). 
 It compares/cross-references the code between one branch and another, and ensures that only the most recent changes to each version of a file are merged into one new version. 
 We represent the relationship in the diagram in a linear order to represent the parent/child relationship between commits. 
 It also allows us to stay organized by ensuring that the merge process runs smoothly. 
+
+
