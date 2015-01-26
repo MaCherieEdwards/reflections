@@ -33,4 +33,10 @@ It compares/cross-references the code between one branch and another, and ensure
 We represent the relationship in the diagram in a linear order to represent the parent/child relationship between commits. 
 It also allows us to stay organized by ensuring that the merge process runs smoothly. 
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
+Git's automatic merging saves you time by automatically using the most logical version of of a specific change to your file. 
+Git's automatic merging only works in situations where it is logical to assume that a change should be committed (an addition or subtraction to different items on a file).
+Manually merging is necessary when there are merge conflicts, or, when multiple changes have been made to the same item in a file by multiple people. 
+When merge conflicts arrise, we cannot rely on Git's automatic merging, and must manually review the conflicts between multiple versions of the same code block. 
+This will ensure that the best decision is made regarding what changes to commit, and what changes to reject. 
