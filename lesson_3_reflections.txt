@@ -18,3 +18,10 @@ You would use Git clone if you are an approved contributer to a project, and nee
 
 Branches are for creating a separate workspace to tackle new features or experimental additions to a project. 
 They differ from forks and clones in that they are a subset of an entire project, rather than a copy of it. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If there were any changes made on GitHub that would potentially conflict with yours, it would be helpful to use git fetch to pull in changes from GitHub and resolve them. 
+You could then use git log and git diff to compare the changes. 
+It would also be helpful if you were going to be offline for an extended period of time.
+
