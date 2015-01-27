@@ -39,4 +39,14 @@ This would be easier because I wouldn't have to worry about navigating a staging
 This would be significantly harder because these other tools don't come with features like automatic merging and the ability 
 to easily view the differences between versions of files. 
 
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
 
+If you were working on a large projects with other contributers, or you were working in a
+scenario where your code would need to be approved or accepted by a supervisor before it 
+could be merged, it would make the most since to work in a separate branch and create
+a pull request when you wanted feedback on your work.
+If you are working on a solo project that you are not yet ready to share with others, and 
+do not need to maintain a production-ready version of your code, then working directly
+in master is a more efficient approach, since you won't be asking for feedback from
+others until you're done with the finished product. 
