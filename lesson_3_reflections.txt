@@ -1,27 +1,42 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-I would want to use a remote repository if I were collaborating on a project with others, and wanted them to be able to contribute to my project.
-It would also be best to use a remote repo if I wanted to allow others to use part of all of my code to create projects of their own.
-Lastly, if you wanted to publicly share your work, a (public) remote repo would allow you to do that easily. 
+I would want to use a remote repository if I were collaborating on a project with others, 
+and wanted them to be able to contribute to my project. It would also be best to use a remote 
+repo if I wanted to allow others to use part of all of my code to create projects of their own.
+Lastly, if you wanted to publicly share your work, a (public) remote repo would allow you to do 
+that easily. 
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
 
-It's best to pull changes manually rather than have Git automatically stay up-to-date because you may be working on something that you're not ready for others to have access to yet.
+It's best to pull changes manually rather than have Git automatically stay up-to-date 
+because you may be working on something that you're not ready for others to have access to yet.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks are used when you'd like to create a project based on someone elses code. 
-You would use a fork rather than cloning in this case because you'd want to ensure that the original author of the code gets credit for his/her work. 
+You would use a fork rather than cloning in this case because you'd want to ensure 
+that the original author of the code gets credit for his/her work. 
 
 Cloning is used to get a copy of an existing repo. 
-You would use Git clone if you are an approved contributer to a project, and need your own copy of the code to start working. 
+You would use Git clone if you are an approved contributer to a project, 
+and need your own copy of the code to start working. 
 
 Branches are for creating a separate workspace to tackle new features or experimental additions to a project. 
 They differ from forks and clones in that they are a subset of an entire project, rather than a copy of it. 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-If there were any changes made on GitHub that would potentially conflict with yours, it would be helpful to use git fetch to pull in changes from GitHub and resolve them. 
+If there were any changes made on GitHub that would potentially conflict with yours, it would be
+helpful to use git fetch to pull in changes from GitHub and resolve them. 
 You could then use git log and git diff to compare the changes. 
 It would also be helpful if you were going to be offline for an extended period of time.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or GitHub, I would attempt to collaborate using some other version control program like Dropbox or Google Docs. 
+This would be easier because I wouldn't have to worry about navigating a staging area or setting up a remote.
+This would be significantly harder because these other tools don't come with features like automatic merging and the ability 
+to easily view the differences between versions of files. 
+
 
