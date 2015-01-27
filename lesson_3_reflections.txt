@@ -6,4 +6,15 @@ Lastly, if you wanted to publicly share your work, a (public) remote repo would 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-It's best to pull changes manually rather than have Git automatically stay up-to-date because you may be working on something that you're not ready for others to have access to yet. 
+It's best to pull changes manually rather than have Git automatically stay up-to-date because you may be working on something that you're not ready for others to have access to yet.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used when you'd like to create a project based on someone elses code. 
+You would use a fork rather than cloning in this case because you'd want to ensure that the original author of the code gets credit for his/her work. 
+
+Cloning is used to get a copy of an existing repo. 
+You would use Git clone if you are an approved contributer to a project, and need your own copy of the code to start working. 
+
+Branches are for creating a separate workspace to tackle new features or experimental additions to a project. 
+They differ from forks and clones in that they are a subset of an entire project, rather than a copy of it. 
